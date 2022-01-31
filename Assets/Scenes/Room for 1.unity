@@ -773,7 +773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272586861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 2, z: -10}
   m_LocalScale: {x: 20, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1053,11 +1053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5339758357035826942, guid: 0494a125ed0786a4b9a6043721b5aec5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -500
       objectReference: {fileID: 0}
     - target: {fileID: 5339758357035826942, guid: 0494a125ed0786a4b9a6043721b5aec5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 220.26
       objectReference: {fileID: 0}
     - target: {fileID: 5339758357035826942, guid: 0494a125ed0786a4b9a6043721b5aec5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1137,6 +1137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 2471106810587814876, guid: a87801036af51d14a91b89daf2f93c3b, type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 3494527034777216742, guid: 226b5dc7703a4f149b4c4f4eb3ae478a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a87801036af51d14a91b89daf2f93c3b, type: 3}
 --- !u!114 &7216366882217154461 stripped

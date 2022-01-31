@@ -196,8 +196,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 2375776822261381253}
   - {fileID: 602636224182126872}
-  - {fileID: 0}
-  sceneViewId: 1
+  - {fileID: 6307306426944068412}
+  sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!114 &6307306426944068412
@@ -214,6 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beams: {fileID: 4209383376815496427}
   Health: 1
+  PlayerUiPrefab: {fileID: 0}
 --- !u!1 &4209383376815496427
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_Name
-      value: My Robot Kyle
+      value: My Robot Kyle Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_RootOrder
