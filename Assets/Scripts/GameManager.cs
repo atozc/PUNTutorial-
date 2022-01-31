@@ -33,19 +33,26 @@ namespace Com.MyCompany.MyGame
 
         #region Public Methods
 
+        public static GameManager Instance;
 
         public void LeaveRoom()
         {
             PhotonNetwork.LeaveRoom();
+
+            
         }
 
+        void Start()
+        {
+            Instance = this;
+        }
 
-        #endregion
+    #endregion
 
-        #region Private Methods
+    #region Private Methods
 
 
-        void LoadArena()
+    void LoadArena()
         {
             if (!PhotonNetwork.IsMasterClient)
             {
